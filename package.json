@@ -1,0 +1,24 @@
+{
+  "name": "roomle_integration",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+    "@tsconfig/svelte": "^3.0.0",
+    "svelte": "^3.44.0",
+    "svelte-check": "^2.8.0",
+    "svelte-preprocess": "^4.10.7",
+    "typescript": "^4.7.4",
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "@roomle/embedding-lib": "^4.38.0",
+    "@roomle/web-sdk": "^2.35.0"
+  }
+}
